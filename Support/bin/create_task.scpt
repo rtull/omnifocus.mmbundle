@@ -25,6 +25,7 @@ on run argv
 						set note expanded of tree (count of trees) to true
 						if (count of trees) is 1 then
 							tell application "System Events" to keystroke tab
+							tell application "System Events" to keystroke tab
 						end if
 					end if
 				end tell
